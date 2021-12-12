@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- Titulo e icono del navegador -->
+        <title>Videojuegos RETRO</title>
+        <link rel="icon" href="imagenes/icon.png" type="image/png" sizes="16x16">
+    </head>
+
+    <header>
+        <!-- Enlaces de navegacion / Enlace a otra pagina -->
+        <!-- Guia de navegacion -->
+        <nav><p id="top"><a href='../Index.html'>Home</a> - <a href='../Index.html#About'>Nosotros</a> - <a href='../Index.html#Analisis'>Análisis</a> - <a href='../Index.html#Guias'>Guias</a> - <a href='../Index.html#Favoritos'>Favoritos</a> - <a href='../Index.html#Lugares'>Lugares</a> - <a href='contacto.html'>Contacto</a></p></nav>
+        <hr>
+    </header>
+
+    <body background='../imagenes/background.png'>
+        <form action="" method="get" style="width: 50%;">
+            <fieldset>
+                <legend>DINOS QUIEN ERES</legend>
+                <label for="Name">Nombre:</label>
+                <br>
+                <input id="Name" name="Name" type="text" placeholder="Shigeru">
+                <br><br>
+                <label for="Lastname">Apellidos:</label>
+                <br>
+                <input id="Lastname" name="Lastname" type="text" placeholder="Miyamoto">
+                <br><br>
+                <label for="Nickname">Apodo:</label>
+                <br>
+                <input id="Nickname" name="Nickname" type="text" placeholder="Jumpman" required>
+                <br><br>
+                <label for="Email">Correo Electrónico:</label>
+                <br>
+                <input id="Email" name="Email" type="email" placeholder="shigeru.miyamoto@nintendo.com" required>
+                <br><br>
+                <label for="fsystem">Sistema Favorito</label>
+                <br>
+                <select id="fsystem" name="fsystem">
+                <option value="NGB">Gameboy</option>
+                <option value="SGG">Game Gear</option>
+                <option value="NSNES">Supernintendo</option>
+                <option value="SMD">Megadrive</option>
+                </select>
+                <br><br>
+                <label for="Comments">Comentarios:</label>
+                <br>
+                <textarea id="Comments" name="Comentarios adicionales"></textarea>
+                <div class="instructions">Cuentanos tus gustos o sugerencias RETRO!</div>
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reinicio">
+        </form>
+        <br>
+    </body>
+
+    <footer>
+        <!-- Pie de pagina con linea horizontal, nombre y fecha -->
+        <hr>
+        <p>Creado por <em>Francisco Javier Loscos Gil</em> en <strong>Diciembre del 2021</strong>.</p>
+    </footer>
+
+</html>
